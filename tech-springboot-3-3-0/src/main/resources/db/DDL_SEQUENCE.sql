@@ -1,0 +1,9 @@
+DROP SEQUENCE IF EXISTS `tech_sequence`;
+
+CREATE SEQUENCE `tech_sequence`
+    START WITH 1
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 9999999
+    NO CYCLE
+    CACHE 10;
